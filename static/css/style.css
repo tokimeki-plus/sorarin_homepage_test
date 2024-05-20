@@ -1,0 +1,19 @@
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #ffffff;
+    background-color: #000;
+    font-family: "Noto Sans JP", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: auto;
+    margin: 0 auto;
+    padding: 0;
+    padding-top: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
+    max-width: 960px;
+}
